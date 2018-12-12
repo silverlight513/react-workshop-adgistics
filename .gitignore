@@ -1,0 +1,12 @@
+# Building
+.next
+out
+
+# editor
+.vscode
+
+# dependencies
+node_modules
+
+# misc
+.DS_Store
