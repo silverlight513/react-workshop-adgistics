@@ -2,6 +2,11 @@ import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 import GlobalStyle from '../components/GlobalStyle';
 
+/**
+ * Ignore this file,
+ * It is nextjs specific
+ */
+
 class CustomDocument extends Document {
   static getInitialProps({ renderPage }) {
     const sheet = new ServerStyleSheet();

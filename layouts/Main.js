@@ -1,18 +1,22 @@
 import React from 'react';
 import Head from 'next/head';
-import Container from '../components/Container';
+
+/**
+ * Ignore this file,
+ * It is nextjs specific
+ */
 
 class Main extends React.Component {
   render() {
-    const { children, title = 'color picker' } = this.props;
+    const { children, title = '#C0L0R' } = this.props;
 
     return (
-      <Container>
+      <>
         <Head>
           <title>{title}</title>
         </Head>
         {children}
-      </Container>
+      </>
     );
   }
 }

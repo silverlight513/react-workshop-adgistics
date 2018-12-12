@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
+/**
+ * Generic component for adding a container div with 20px margin
+ */
+
 const Container = styled.div`
-  padding: 20px;
+  margin: 20px;
 `;
 
 export default Container;
