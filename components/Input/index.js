@@ -32,6 +32,9 @@ class Input extends React.Component {
 
     if (color.length === 7 || color.length === 4) {
       this.props.selectColor(color);
+      this.setState({
+        color: ''
+      });
     }
   }
 
